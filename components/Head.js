@@ -4,7 +4,7 @@ const url = "/"
 const title = "Next.js Starters"
 const description = "Getting your next project up and running with these project starters by John Polacek for Next.js, the React Framework for Production."
 const twitter = "@johnpolacek"
-const imageUrl = "https://growth-areas-for-a-software-developer.vercel.app/screenshot.png"
+const imageUrl = "https://nextjs-project-starters.vercel.app/screenshot.png"
 const imageAlt = "Next.js Starters"
 
 const DocHead = () => (
