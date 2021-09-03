@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-starters",
+  "description": "Next.js Starter Projects - including Next.js Project Starter, Next.js MDX Blog Starter and Hello Next App, a full featured SaaS Starter",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format-watch": "npm run format && onchange \"**/*.{js,jsx,json,md}\" -- prettier --write {{changed}}",
+    "deploy": "git push origin main && vercel --prod"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^11.1.2",
+    "gsap": "^3.7.1",
+    "next": "^9.5.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "onchange": "^7.1.0",
+    "prettier": "^2.3.2"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/johnpolacek/nextjs-starters"
+}

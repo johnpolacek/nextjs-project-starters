@@ -1,0 +1,97 @@
+:root {
+  --shade1: #304DA5;
+  --shade2: #3656B5;
+  --shade3: #3A5CC4;
+  --shade4: #3F63D0;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 32px;
+  --space-4: 48px;
+  --space-5: 64px;
+  --space-6: 96px;
+}
+
+body {
+	padding: 0 0 var(--space-4);
+	margin: 0;
+	color: white;
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	text-align: center;
+	font-size: 24px;
+	background: var(--shade1);
+}
+
+body > div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: var(--space-6);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul, h1, h2 {
+	width: 100%;
+	z-index: 9999;
+}
+
+h1 {
+	padding: var(--space-6) var(--space-4);
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 1.2;
+	max-width: 720px;
+	margin-top: -16px;
+}
+
+h2 {
+	padding-bottom: var(--space-1); 
+	margin: var(--space-3) auto var(--space-4);
+	font-weight: 200;
+	margin-top:  -120px;
+	padding: 0 200px;
+	max-width: 700px;
+}
+
+ul {
+	font-size:  36px;
+	font-weight:  bold;
+	padding-bottom:  var(--space-3);
+}
+
+a {
+	color: white;
+}
+
+ul a {
+	font-size: 18px;
+	font-weight:  200;
+}
+
+div > ul > li {
+	background:  rgba(0,0,0,.5);
+	padding: var(--space-3) var(--space-3) 0;
+	max-width: 540px;
+	border-radius:  16px;
+	margin: 0 auto var(--space-3);
+}
+
+ul li ul li {
+	margin:  -8px 0 0;
+	padding: 0;
+}
+
+p {
+	font-size:  16px;
+	color:  rgba(255,255,255,.8);
+}
+
+@media only screen and (max-width: 420px) {
+  h1 {
+    font-size: 48px;
+  }
+}
