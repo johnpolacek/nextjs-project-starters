@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-starters",
+  "name": "nextjs-project-starters",
   "description": "Next.js Starter Projects - including Next.js Project Starter, Next.js MDX Blog Starter and Hello Next App, a full featured SaaS Starter",
   "version": "0.1.0",
   "scripts": {
@@ -23,5 +23,5 @@
     "prettier": "^2.3.2"
   },
   "license": "MIT",
-  "repository": "https://github.com/johnpolacek/nextjs-starters"
+  "repository": "https://github.com/johnpolacek/nextjs-project-starters"
 }
