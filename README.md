@@ -4,7 +4,9 @@
 
 - Next Project Starter
 	- [next-project-starter.vercel.app](https://next-project-starter.vercel.app/)
-	- [View on Github](https://github.com/johnpolacek/next-project-starter)
+- Next Project Starter with TypeScript
+	- [next-project-starter-with-typescript.vercel.app](https://next-project-starter.vercel.app/) 
+	- [View on Github](https://github.com/johnpolacek/next-project-starter-with-typescript)
 - Next.js MDX Blog Starter
 	- [nextjs-mdx-blog-starter.vercel.app](https://nextjs-mdx-blog-starter.vercel.app/)
 	- [View on Github](https://github.com/johnpolacek/nextjs-mdx-blog-starter)
